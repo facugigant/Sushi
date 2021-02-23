@@ -167,7 +167,7 @@
   }
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 420px) {
   .vermenuimg {
     width: 90%;
   }
@@ -195,11 +195,11 @@
   }
   .redes {
     margin-top: -45px;
-    margin-left: 100px;
+    margin-left: -0.5%;
   }
   .telefono {
     font-size: 125%;
-    margin-left: -190px;
+    margin-left: -80%;
   }
   .telefono .icontel {
     margin-top: 0;
