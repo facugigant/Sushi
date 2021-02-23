@@ -19,8 +19,14 @@
   body {
     background: black;
   }
-  aside {
-    background-color: black;
+  .telefono {
+    font-size: 125%;
+  }
+  .telefono .icontel {
+    margin-top: -3px;
+    width: 16px;
+    height: 16px;
+    margin-right: 5px;
   }
 }
 
@@ -50,17 +56,27 @@
     font-size: 125%;
   }
   .telefono .icontel {
-    margin-left: 20px;
     margin-top: -3px;
     width: 16px;
     height: 16px;
+    margin-right: 5px;
   }
 }
 
-@media only screen and (min-width: 800px) {
+@media only screen and (max-width: 800px) {
   .googlemap {
-    margin-top: 15%;
-    width: 500px;
+    width: 380px;
+    height: 490px;
+  }
+  .telefono {
+    margin-left: -100px;
+    font-size: 150%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .googlemap {
+    width: 350px;
     height: 490px;
   }
   .menunav {
@@ -80,90 +96,25 @@
     background: black;
   }
   .telefono {
+    margin-left: -100px;
     font-size: 125%;
   }
   .telefono .icontel {
-    margin-left: 200px;
     margin-top: -3px;
     width: 16px;
     height: 16px;
+    margin-right: 5px;
   }
 }
 
-@media only screen and (min-width: 720px) {
-  .googlemap {
-    margin-top: 15%;
-    width: 500px;
-    height: 490px;
-  }
-  .menunav {
-    margin-left: 5px;
-  }
-  .navbar {
-    font-size: 25px;
-  }
-  .nav-link:hover {
-    background-color: rgba(0, 0, 0, 0.3);
-    color: red;
-  }
-  .pandita {
-    height: 35px;
-  }
-  body {
-    background: black;
-  }
+@media only screen and (max-width: 420px) {
   .redes {
-    margin-top: -45px;
-    margin-left: 170px;
+    margin-left: 35%;
+    margin-top: -10%;
   }
   .telefono {
-    font-size: 125%;
-    margin-left: -570px;
-  }
-  .telefono .icontel {
-    margin-top: -3px;
-    width: 16px;
-    height: 16px;
-  }
-}
-
-@media only screen and (min-width: 420px) {
-  .vermenuimg {
-    width: 90%;
-  }
-  .googlemap {
-    margin-top: 15%;
-    width: 500px;
-    height: 490px;
-  }
-  .menunav {
-    margin-left: 5px;
-  }
-  .navbar {
-    font-size: 25px;
-  }
-  .nav-link:hover {
-    background-color: rgba(0, 0, 0, 0.3);
-    color: red;
-  }
-  .pandita {
-    height: 35px;
-  }
-  body {
-    background: black;
-  }
-  .redes {
-    margin-top: -45px;
-    margin-left: 130px;
-  }
-  .telefono {
-    font-size: 125%;
-    margin-left: -260px;
-  }
-  .telefono .icontel {
-    margin-top: -3px;
-    width: 16px;
-    height: 16px;
+    margin-left: -150px;
+    font-size: 100%;
   }
 }
 
@@ -237,4 +188,4 @@ aside .face:hover, aside .insta:hover, aside .whap:hover {
   -webkit-transform: scale(2.3);
           transform: scale(2.3);
 }
-/*# sourceMappingURL=Style.css.map */
+/*# sourceMappingURL=Stylepedi.css.map */
