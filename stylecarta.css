@@ -1,0 +1,231 @@
+@media only screen and (min-width: 1920px) {
+  .googlemap {
+    width: 700px;
+    height: 550px;
+  }
+  .menunav {
+    margin-left: 100px;
+  }
+  .navbar {
+    font-size: 35px;
+  }
+  .nav-link:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+    color: red;
+  }
+  .pandita {
+    height: 45px;
+  }
+  body {
+    background: black;
+  }
+  .telefono {
+    font-size: 125%;
+  }
+  .telefono .icontel {
+    margin-top: -3px;
+    width: 16px;
+    height: 16px;
+    margin-right: 5px;
+  }
+}
+
+@media only screen and (max-width: 1080px) {
+  .cartaimagenes {
+    margin-left: -225px;
+    margin: 0%;
+    padding: 0;
+    width: 800px;
+    height: 800px;
+  }
+  .googlemap {
+    margin-top: 15%;
+    width: 500px;
+    height: 490px;
+  }
+  .menunav {
+    margin-left: 5px;
+  }
+  .navbar {
+    font-size: 25px;
+  }
+  .nav-link:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+    color: red;
+  }
+  .pandita {
+    height: 35px;
+  }
+  body {
+    background: black;
+  }
+  .telefono {
+    font-size: 125%;
+  }
+  .telefono .icontel {
+    margin-top: -3px;
+    width: 16px;
+    height: 16px;
+    margin-right: 5px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .cartaimagenes {
+    margin: 0%;
+    padding: 0;
+    margin-left: -11px;
+    width: 800px;
+    height: 800px;
+  }
+  .googlemap {
+    margin-top: 15%;
+    width: 500px;
+    height: 490px;
+  }
+  .menunav {
+    margin-left: 5px;
+  }
+  .navbar {
+    font-size: 25px;
+  }
+  .nav-link:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+    color: red;
+  }
+  .pandita {
+    height: 35px;
+  }
+  body {
+    background: black;
+  }
+  .redes {
+    text-align: start;
+    margin-left: 300px;
+  }
+  .telefono {
+    font-size: 125%;
+    margin-right: 160px;
+  }
+  .telefono .icontel {
+    margin-top: -3px;
+    width: 16px;
+    height: 16px;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  .cartaimagenes {
+    margin: 0%;
+    padding: 0;
+    margin-left: -11px;
+    width: 800px;
+    height: 800px;
+  }
+  .googlemap {
+    margin-top: 15%;
+    width: 500px;
+    height: 490px;
+  }
+  .menunav {
+    margin-left: 5px;
+  }
+  .navbar {
+    font-size: 25px;
+  }
+  .nav-link:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+    color: red;
+  }
+  .pandita {
+    height: 35px;
+  }
+  body {
+    background: black;
+  }
+  .redes {
+    margin-left: 40;
+    margin-top: -45px;
+  }
+  .telefono {
+    font-size: 125%;
+    margin-right: 650px;
+  }
+  .telefono .icontel {
+    margin-top: -3px;
+    width: 16px;
+    height: 16px;
+  }
+}
+
+.carrusel {
+  margin: 0%;
+  padding: 0%;
+}
+
+* {
+  text-align: center;
+}
+
+aside {
+  color: white;
+}
+
+body {
+  margin: 0%;
+  padding: 0%;
+}
+
+.navbar {
+  background: white;
+}
+
+.nav-link {
+  color: white;
+}
+
+footer {
+  background: black;
+}
+
+p {
+  color: white;
+}
+
+h1 {
+  color: white;
+}
+
+h2 {
+  color: white;
+}
+
+h3 {
+  color: white;
+}
+
+h4 {
+  color: white;
+}
+
+article {
+  color: white;
+}
+
+aside {
+  height: 30px;
+}
+
+aside {
+  height: 30px;
+}
+
+aside .redes {
+  letter-spacing: 15px;
+}
+
+aside .face:hover, aside .insta:hover, aside .whap:hover {
+  -webkit-transform: scale(2.3);
+          transform: scale(2.3);
+}
+/*# sourceMappingURL=stylecarta.css.map */
