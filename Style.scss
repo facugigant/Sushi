@@ -1,5 +1,13 @@
 // Responsive PC 1920p x 1080p 
-@media only screen and (min-width: 1920px) {
+@media only screen and (max-width: 1920px) {
+  .icontel{
+    width: 16px;
+    height: 16px;
+   
+       }
+  aside{
+    background: red;    
+  }
   .googlemap{
     width: 700px;
     height: 550px;
@@ -22,13 +30,16 @@ height: 45px;
   body{
     background: black;
   }
- aside{
- 
-   background-color: black;
- }
+
 }
+
 // Responsive PC 1080p 
 @media only screen and (max-width: 1080px) {
+  .icontel{
+    width: 16px;
+    height: 16px;
+   
+       }
   .googlemap{
     margin-top: 15%;
     width: 500px;
@@ -52,20 +63,15 @@ height: 45px;
     body{
       background: black;
     }
-    .telefono{ 
-     
-      font-size: 125%;
-      .icontel{
-        margin-left: 20px;
-        margin-top: -3px;
-        width: 16px;
-      height: 16px;
-    
-      }
-    }
+   
   }
   // Responsive PC 800p 
-@media only screen and (min-width: 800px) {
+@media only screen and (max-width: 800px) {
+  .icontel{
+    width: 16px;
+    height: 16px;
+   
+       }
   .googlemap{
     margin-top: 15%;
     width: 500px;
@@ -89,20 +95,15 @@ height: 45px;
     body{
       background: black;
     }
-    .telefono{ 
-     
-      font-size: 125%;
-      .icontel{
-        margin-left: 200px;
-        margin-top: -3px;
-        width: 16px;
-      height: 16px;
-    
-      }
-    }
+
   }
   // Responsive  720p 
-@media only screen and (min-width: 720px) {
+@media only screen and (max-width: 767px) {
+  .icontel{
+    width: 16px;
+    height: 16px;
+   
+       }
   .googlemap{
     margin-top: 15%;
     width: 500px;
@@ -123,22 +124,14 @@ height: 45px;
     .pandita{
   height: 35px;
     }
+    .redesasid{
+      margin-top: -45px;
+    }
     body{
       background: black;
     }
-    .redes{
-      margin-top: -45px;
-      margin-left: 170px;
-    }
-    .telefono{ 
-      font-size: 125%;
-      margin-left: -570px;
-      .icontel{
-        margin-top: -3px;
-        width: 16px;
-      height: 16px;
-     
-      }
+    .telefasid{
+      margin-left: -150px;
     }
   }
   // Responsive  celular 420p 
@@ -169,23 +162,10 @@ height: 45px;
     body{
       background: black;
     }
-    .redes{
-      margin-top: -45px;
-      margin-left: 130px;
-    }
-    .telefono{ 
-      font-size: 125%;
-      margin-left: -260px;
-      .icontel{
-        margin-top: -3px;
-        width: 16px;
-      height: 16px;
-     
-      }
-    }
+
   }
     // Responsive  celular 400p 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 420px) {
   .vermenuimg{
     width: 90%;
   }
@@ -213,20 +193,14 @@ height: 45px;
     body{
       background: black;
     }
-    .redes{
-      margin-top: -45px;
-      margin-left: 100px;
+    .telefasid{
+      margin-left: -90px;
     }
-    .telefono{ 
-      font-size: 125%;
-      margin-left: -190px;
       .icontel{
-        margin-top: 0;
-        width: 16px;
+      width: 16px;
       height: 16px;
      
-      }
-    }
+         }
   }
   
     
@@ -242,7 +216,7 @@ padding: 0%;}
 
 }
 aside {
-  color: white;
+  // color: white;
 }
 body {
   margin: 0%;
