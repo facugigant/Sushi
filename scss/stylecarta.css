@@ -1,4 +1,11 @@
 @media only screen and (min-width: 1920px) {
+  body {
+    background: white;
+  }
+  .icontel {
+    width: 16px;
+    height: 16px;
+  }
   .googlemap {
     width: 700px;
     height: 550px;
@@ -16,21 +23,19 @@
   .pandita {
     height: 45px;
   }
-  body {
-    background: black;
-  }
   .telefono {
     font-size: 125%;
-  }
-  .telefono .icontel {
-    margin-top: -3px;
-    width: 16px;
-    height: 16px;
-    margin-right: 5px;
   }
 }
 
 @media only screen and (max-width: 1080px) {
+  body {
+    background: white;
+  }
+  .icontel {
+    width: 16px;
+    height: 16px;
+  }
   .cartaimagenes {
     margin-left: -225px;
     margin: 0%;
@@ -56,21 +61,15 @@
   .pandita {
     height: 35px;
   }
-  body {
-    background: black;
-  }
   .telefono {
     font-size: 125%;
-  }
-  .telefono .icontel {
-    margin-top: -3px;
-    width: 16px;
-    height: 16px;
-    margin-right: 5px;
   }
 }
 
 @media only screen and (max-width: 800px) {
+  body {
+    background: white;
+  }
   .cartaimagenes {
     margin: 0%;
     padding: 0;
@@ -96,30 +95,114 @@
   .pandita {
     height: 35px;
   }
-  body {
-    background: black;
-  }
   .redes {
     text-align: start;
-    margin-left: 300px;
+    margin-left: 350px;
+    margin-top: -45px;
   }
   .telefono {
     font-size: 125%;
-    margin-right: 160px;
+    margin-right: -150px;
   }
   .telefono .icontel {
-    margin-top: -3px;
     width: 16px;
     height: 16px;
   }
 }
 
+@media only screen and (max-width: 767px) {
+  body {
+    background: white;
+  }
+  .icontel {
+    width: 16px;
+    height: 16px;
+  }
+  .googlemap {
+    margin-top: 15%;
+    width: 500px;
+    height: 490px;
+  }
+  .menunav {
+    margin-left: 5px;
+  }
+  .navbar {
+    font-size: 25px;
+  }
+  .nav-link:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+    color: red;
+  }
+  .pandita {
+    height: 35px;
+  }
+  .redes {
+    text-align: start;
+    margin-left: 350px;
+    margin-top: -45px;
+  }
+  .telefono {
+    font-size: 125%;
+    margin-right: 350px;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  body {
+    background: white;
+  }
+  .cartaimagenes {
+    margin: 0%;
+    padding: 0;
+    margin-left: -31px;
+    width: 700px;
+    height: 800px;
+  }
+  .icontel {
+    width: 16px;
+    height: 16px;
+  }
+  .googlemap {
+    margin-top: 15%;
+    width: 500px;
+    height: 490px;
+  }
+  .menunav {
+    margin-left: 5px;
+  }
+  .navbar {
+    font-size: 25px;
+  }
+  .nav-link:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+    color: red;
+  }
+  .pandita {
+    height: 35px;
+  }
+  .redes {
+    text-align: start;
+    margin-left: 350px;
+    margin-top: -45px;
+  }
+  .telefono {
+    font-size: 125%;
+    margin-right: 350px;
+  }
+}
+
 @media only screen and (max-width: 420px) {
+  aside {
+    background: black;
+  }
+  body {
+    background: white;
+  }
   .cartaimagenes {
     margin: 0%;
     padding: 0;
     margin-left: -11px;
-    width: 800px;
+    width: 410px;
     height: 800px;
   }
   .googlemap {
@@ -140,16 +223,13 @@
   .pandita {
     height: 35px;
   }
-  body {
-    background: black;
-  }
   .redes {
-    margin-left: 40;
-    margin-top: -45px;
+    margin-left: 200px;
+    margin-top: -10x;
   }
   .telefono {
     font-size: 125%;
-    margin-right: 650px;
+    margin-right: 150px;
   }
   .telefono .icontel {
     margin-top: -3px;
@@ -165,10 +245,6 @@
 
 * {
   text-align: center;
-}
-
-aside {
-  color: white;
 }
 
 body {
@@ -227,5 +303,15 @@ aside .redes {
 aside .face:hover, aside .insta:hover, aside .whap:hover {
   -webkit-transform: scale(2.3);
           transform: scale(2.3);
+}
+
+aside {
+  margin: 0%;
+  padding: 0;
+  background: black;
+}
+
+.topcel {
+  color: red;
 }
 /*# sourceMappingURL=stylecarta.css.map */
