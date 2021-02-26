@@ -1,151 +1,132 @@
-// Responsive PC 1920p x 1080p 
-@media only screen and (min-width: 1920px) {
-    .googlemap{
-      width: 700px;
-      height: 550px;
+ 
   
-    }
+  // Responsive PC 1920p x 1080p 
+@media only screen and (min-width: 1920px) {
+
+  .googlemap{
+    width: 700px;
+    height: 550px;
+
+  }
+
   .menunav{ 
-    margin-left: 100px;
+    margin: 0%;
+  padding: 0%;
+  font-size: 75%;
+  margin-left: 55px !important;
   }
   .navbar{
-    font-size: 35px;
+    font-size: 45px;
     }
   
-    .nav-link:hover{
-      background-color: rgba($color: #000000, $alpha: 0.3);
-      color: red;
-    }
-    .pandita{
-  height: 45px;
-    }
-    body{
-      background: black;
-    }
-    .telefono{ 
-      font-size: 125%;
-      .icontel{
-        margin-top: -3px;
-        width: 16px;
-      height: 16px;
-      margin-right: 5px;
-      }
+
+  .nav-link:hover{
+    background-color: rgba($color: #000000, $alpha: 0.3);
+    color: red;
+  }
+  .pandita{
+height: 45px;
+  }
+.telefono{
+  font-size: 125%;
+}
+
+}
+// Responsive PC 1340 
+@media only screen and (max-width: 1320px) {
+  .menunav{ 
+    margin: 0%;
+  padding: 0%;
+  font-size: 120%;
+  margin-left: 55px !important;
+  }
+}
+// Responsive PC 1340 
+@media only screen and (max-width: 1320px) {
+  .menunav{ 
+    margin: 0%;
+  padding: 0%;
+  font-size: 120%;
+  margin-left: 55px !important;
+  }
+}
+// Responsive PC 1100 
+@media only screen and (max-width: 1100px) {
+  .menunav{ 
+    margin: 0%;
+  padding: 0%;
+  font-size: 115%;
+  margin-left: 55px !important;
+  }
+}
+// Responsive PC 1080 
+@media only screen and (max-width: 1080px) {
+  .redes{
+    margin-left: -200px;
+  }
+    .menunav{ 
+      margin: 0%;
+    padding: 0%;
+    font-size: 100%;
+    margin-left: 55px !important;
     }
   }
-  // Responsive PC 1080p 
-  @media only screen and (max-width: 1080px) {
-    .googlemap{
-      margin-top: 15%;
-      width: 500px;
-      height: 490px;
-  
+// Responsive PC 768 
+@media only screen and (max-width: 768px) {
+  .googlemap{
+    width: 450px;
+    height: 55500px;
+  }
+   .topcel{
+     margin-left: -500px;
+     }
+     .redes{
+     margin-left: -100px;
+     margin-top: -40px;
+     }
     }
-    .menunav{ 
-      margin-left: 5px;
+
+     // Responsive PC 480 
+@media only screen and (max-width: 480px) {
+  .vermenuimg{
+    width: 450px;
+  }
+  .topcel{
+   margin-left: -350px;
+   }
+   .redes{
+   margin-left: -50px;
+   margin-top: -40px;
+   }
+  }
+    // Responsive PC 320
+  @media only screen and (max-width: 320px) {
+    .vermenuimg{
+    width: 250px;
     }
-    .navbar{
-      font-size: 25px;
-      }
+    .topcel{
+     margin-left: -290px;
+     }
+     .redes{
+     margin-left: -10px;
+     margin-top: -40px;
+     }
+    }
     
-      .nav-link:hover{
-        background-color: rgba($color: #000000, $alpha: 0.3);
-        color: red;
-      }
-      .pandita{
-    height: 35px;
-      }
-      body{
-        background: black;
-      }
-      .telefono{ 
-        font-size: 125%;
-        .icontel{
-          margin-top: -3px;
-          width: 16px;
-        height: 16px;
-        margin-right: 5px;
-        }
-      }
-    }
-  
-   
-  // Responsive Ipad kindle 800p
-      @media only screen and (max-width: 800px) {
-        .googlemap{
-          width: 380px;
-          height: 490px;
-      
-        }
-        .telefono{ 
-          margin-left: -100px;
-          font-size: 150%;}
-        }
-    // Responsive Ipad
-    @media only screen and (max-width: 768px) {
-      .googlemap{
-        width: 350px;
-        height: 490px;
-    
-      }
-      .menunav{ 
-        margin-left: 5px;
-      }
-      .navbar{
-        font-size: 25px;
-        }
-      
-        .nav-link:hover{
-          background-color: rgba($color: #000000, $alpha: 0.3);
-          color: red;
-        }
-        .pandita{
-      height: 35px;
-        }
-        body{
-          background: black;
-        }
-        .telefono{ 
-          margin-left: -100px;
-          font-size: 125%;
-          .icontel{
-            margin-top: -3px;
-            width: 16px;
-          height: 16px;
-          margin-right: 5px;
-          }
-        }
-      }
-        // Responsive Celular
-      @media only screen and (max-width: 420px) {
-  
-        .redes {
-          margin-left: 35%;
-          margin-top: -10%;
-        }
-       
-        .telefono{ 
-          margin-left: -150px;
-          font-size: 100%;
-        }
-      }
-  // FIN RESPONSIVE
-  
-  
-  .carrusel{ 
-    margin: 0%;
-  padding: 0%;}
+// FIN RESPONSIVE
+
+
   
   * {
     text-align: center;
   
   }
-  aside {
-    color: white;
-  }
+ aside{
+   background: black;
+ }
   body {
     margin: 0%;
     padding: 0%;
-    // background: black;
   }
   .navbar {
     background: white;
@@ -198,4 +179,140 @@
       @extend %redes;
     }
   }
+  .carrusel{ 
+    margin: 0%;
+  padding: 0%;}
+
+
+
+
+
+  // Responsive PC 1920p x 1080p 
+@media only screen and (min-width: 1920px) {
+  .googlemap{
+    width: 700px;
+    height: 550px;
+
+  }
+.menunav{ 
+  margin-left: 100px;
+}
+.navbar{
+  font-size: 45px;
+  }
+
+  .nav-link:hover{
+    background-color: rgba($color: #000000, $alpha: 0.3);
+    color: red;
+  }
+  .pandita{
+height: 45px;
+  }
+  body{
+    background: black;
+  }
+  .telefono{ 
+    font-size: 125%;
+    .icontel{
+      margin-top: -3px;
+      width: 16px;
+    height: 16px;
+    margin-right: 5px;
+    }
+  }
+}
+// Responsive PC 1080p 
+@media only screen and (max-width: 1080px) {
+  .googlemap{
+    margin-top: 15%;
+    width: 500px;
+    height: 490px;
+
+  }
+  .menunav{ 
+    margin-left: 5px;
+  }
+
   
+    .nav-link:hover{
+      background-color: rgba($color: #000000, $alpha: 0.3);
+      color: red;
+    }
+    .pandita{
+  height: 35px;
+    }
+    body{
+      background: black;
+    }
+    .telefono{ 
+      font-size: 125%;
+      .icontel{
+        margin-top: -3px;
+        width: 16px;
+      height: 16px;
+      margin-right: 5px;
+      }
+    }
+  }
+
+ 
+// Responsive Ipad kindle 800p
+    @media only screen and (max-width: 800px) {
+      .googlemap{
+        width: 380px;
+        height: 490px;
+    
+      }
+      .telefono{ 
+        margin-left: -100px;
+        font-size: 150%;}
+      }
+  // Responsive Ipad
+  @media only screen and (max-width: 768px) {
+    .googlemap{
+      width: 350px;
+      height: 490px;
+  
+    }
+    .menunav{ 
+      margin-left: 5px;
+    }
+    .navbar{
+      font-size: 25px;
+      }
+    
+      .nav-link:hover{
+        background-color: rgba($color: #000000, $alpha: 0.3);
+        color: red;
+      }
+      .pandita{
+    height: 35px;
+      }
+      body{
+        background: black;
+      }
+      .telefono{ 
+        margin-left: -100px;
+        font-size: 125%;
+        .icontel{
+          margin-top: -3px;
+          width: 16px;
+        height: 16px;
+        margin-right: 5px;
+        }
+      }
+    }
+      // Responsive Celular
+    @media only screen and (max-width: 420px) {
+
+      .redes {
+        margin-left: 35%;
+        margin-top: -10%;
+      }
+     
+      .telefono{ 
+        margin-left: -150px;
+        font-size: 100%;
+      }
+    }
+// FIN RESPONSIVE

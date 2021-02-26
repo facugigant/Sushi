@@ -2,19 +2,15 @@
   body {
     background: white;
   }
-  .icontel {
-    width: 16px;
-    height: 16px;
-  }
   .googlemap {
     width: 700px;
     height: 550px;
   }
   .menunav {
-    margin-left: 100px;
-  }
-  .navbar {
-    font-size: 35px;
+    margin: 0%;
+    padding: 0%;
+    font-size: 200%;
+    margin-left: 55px !important;
   }
   .nav-link:hover {
     background-color: rgba(0, 0, 0, 0.3);
@@ -28,41 +24,49 @@
   }
 }
 
+@media only screen and (max-width: 1320px) {
+  .menunav {
+    margin: 0%;
+    padding: 0%;
+    font-size: 120%;
+    margin-left: 55px !important;
+  }
+}
+
 @media only screen and (max-width: 1080px) {
-  body {
-    background: white;
+  .cartaimagenes {
+    width: 900px;
+  }
+  aside {
+    background: black;
+  }
+  a.nav-link {
+    margin-left: 50px;
+    font-size: 15px;
+  }
+  .a.nav-link.menunav {
+    color: red !important;
   }
   .icontel {
     width: 16px;
     height: 16px;
   }
-  .cartaimagenes {
-    margin-left: -225px;
-    margin: 0%;
-    padding: 0;
-    width: 800px;
-    height: 800px;
-  }
   .googlemap {
-    margin-top: 15%;
-    width: 500px;
-    height: 490px;
+    width: 700px;
+    height: 550px;
   }
   .menunav {
-    margin-left: 5px;
-  }
-  .navbar {
-    font-size: 25px;
+    margin-left: 100px;
   }
   .nav-link:hover {
     background-color: rgba(0, 0, 0, 0.3);
     color: red;
   }
   .pandita {
-    height: 35px;
+    height: 45px;
   }
-  .telefono {
-    font-size: 125%;
+  body {
+    background: black;
   }
 }
 
@@ -84,9 +88,6 @@
   }
   .menunav {
     margin-left: 5px;
-  }
-  .navbar {
-    font-size: 25px;
   }
   .nav-link:hover {
     background-color: rgba(0, 0, 0, 0.3);
@@ -111,6 +112,9 @@
 }
 
 @media only screen and (max-width: 767px) {
+  .cartaimagenes {
+    width: 600px;
+  }
   body {
     background: white;
   }
@@ -125,9 +129,6 @@
   }
   .menunav {
     margin-left: 5px;
-  }
-  .navbar {
-    font-size: 25px;
   }
   .nav-link:hover {
     background-color: rgba(0, 0, 0, 0.3);
@@ -170,9 +171,6 @@
   .menunav {
     margin-left: 5px;
   }
-  .navbar {
-    font-size: 25px;
-  }
   .nav-link:hover {
     background-color: rgba(0, 0, 0, 0.3);
     color: red;
@@ -211,10 +209,10 @@
     height: 490px;
   }
   .menunav {
-    margin-left: 5px;
-  }
-  .navbar {
-    font-size: 25px;
+    margin: 0%;
+    padding: 0%;
+    font-size: 200%;
+    margin-left: 55px !important;
   }
   .nav-link:hover {
     background-color: rgba(0, 0, 0, 0.3);
@@ -235,6 +233,12 @@
     margin-top: -3px;
     width: 16px;
     height: 16px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .cartaimagenes {
+    width: 300px;
   }
 }
 
@@ -311,7 +315,13 @@ aside {
   background: black;
 }
 
-.topcel {
+.telefono {
+  color: red;
+}
+
+.icontel {
+  width: 16px;
+  height: 16px;
   color: red;
 }
 /*# sourceMappingURL=stylecarta.css.map */
