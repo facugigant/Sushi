@@ -94,6 +94,19 @@
   }
 }
 
+@media only screen and (max-width: 375px) {
+  .vermenuimg {
+    width: 250px;
+  }
+  .topcel {
+    margin-left: -200px;
+  }
+  .redes {
+    margin-left: 20px;
+    margin-top: -40px;
+  }
+}
+
 @media only screen and (max-width: 320px) {
   .vermenuimg {
     width: 250px;

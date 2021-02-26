@@ -96,6 +96,19 @@ height: 45px;
    margin-top: -40px;
    }
   }
+   // Responsive PC 320
+   @media only screen and (max-width: 375px) {
+    .vermenuimg{
+    width: 250px;
+    }
+    .topcel{
+     margin-left: -200px;
+     }
+     .redes{
+     margin-left: 20px;
+     margin-top: -40px;
+     }
+    }
     // Responsive PC 320
   @media only screen and (max-width: 320px) {
     .vermenuimg{
