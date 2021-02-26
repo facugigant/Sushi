@@ -1,16 +1,19 @@
 // Responsive PC 1920p x 1080p 
 @media only screen and (min-width: 1920px) {
+  body{background: white;}
   .googlemap{
     width: 700px;
     height: 550px;
 
   }
-.menunav{ 
-  margin-left: 100px;
-}
-.navbar{
-  font-size: 35px;
+
+  .menunav{ 
+    margin: 0%;
+  padding: 0%;
+  font-size: 200%;
+  margin-left: 55px !important;
   }
+  
 
   .nav-link:hover{
     background-color: rgba($color: #000000, $alpha: 0.3);
@@ -19,64 +22,69 @@
   .pandita{
 height: 45px;
   }
-  body{
-    background: black;
-  }
-  .telefono{ 
-    font-size: 125%;
-    .icontel{
-      margin-top: -3px;
-      width: 16px;
-    height: 16px;
-    margin-right: 5px;
-    }
+.telefono{
+  font-size: 125%;
+}
+
+}
+// Responsive PC 1320px 
+@media only screen and (max-width: 1320px) {
+
+  .menunav{ 
+    margin: 0%;
+  padding: 0%;
+  font-size: 120%;
+  margin-left: 55px !important;
   }
 }
+
 // Resonsive pc 1080p
   @media only screen and (max-width: 1080px) {
     .cartaimagenes{
-      margin-left: -225px;
-      margin: 0%;
-      padding: 0;
-      width: 800px;
-      height: 800px;
+      width: 900px;
     }
-    .googlemap{
-      margin-top: 15%;
-      width: 500px;
-      height: 490px;
-  
+
+    aside{
+      background: black;
     }
-    .menunav{ 
-      margin-left: 5px;
-    }
-    .navbar{
-      font-size: 25px;
-      }
+    a.nav-link{
+      margin-left: 50px;
+  font-size: 15px;  
     
-      .nav-link:hover{
-        background-color: rgba($color: #000000, $alpha: 0.3);
-        color: red;
       }
-      .pandita{
-    height: 35px;
+      .a.nav-link.menunav{
+        color: red !important;; 
       }
-      body{
-        background: black;
-      }
-      .telefono{ 
-        font-size: 125%;
-        .icontel{
-          margin-top: -3px;
-          width: 16px;
-        height: 16px;
-        margin-right: 5px;
-        }
-      }
+    .icontel{
+      width: 16px;
+      height: 16px;
+     
+         }
+  
+    .googlemap{
+      width: 700px;
+      height: 550px;
+  
+    }
+  .menunav{ 
+    margin-left: 100px;
+  }
+  
+    .nav-link:hover{
+      background-color: rgba($color: #000000, $alpha: 0.3);
+      color: red;
+    }
+    .pandita{
+  height: 45px;
+    }
+    body{
+      background: black;
     }
   
+  }
       // Responsive 800p 
 @media only screen and (max-width: 800px) {
+  body{background: white;}
   .cartaimagenes{
     margin: 0%;
     padding: 0;
@@ -93,9 +101,54 @@ height: 45px;
   .menunav{ 
     margin-left: 5px;
   }
-  .navbar{
-    font-size: 25px;
+ 
+
+    .nav-link:hover{
+      background-color: rgba($color: #000000, $alpha: 0.3);
+      color: red;
     }
+    .pandita{
+  height: 35px;
+    }
+
+   .redes{
+     text-align: start;
+     margin-left: 350px;
+     margin-top: -45px;
+   }
+    .telefono{ 
+      font-size: 125%;
+      margin-right: -150px;
+      .icontel{
+        width: 16px;
+        height: 16px;
+       
+           }
+    }
+  }
+   // Responsive  767
+@media only screen and (max-width: 767px) {
+  .cartaimagenes
+  {
+    width: 600px;
+  }
+
+  body{background: white;}
+  .icontel{
+    width: 16px;
+    height: 16px;
+   
+       }
+  .googlemap{
+    margin-top: 15%;
+    width: 500px;
+    height: 490px;
+
+  }
+  .menunav{ 
+    margin-left: 5px;
+  }
+ 
   
     .nav-link:hover{
       background-color: rgba($color: #000000, $alpha: 0.3);
@@ -104,31 +157,68 @@ height: 45px;
     .pandita{
   height: 35px;
     }
-    body{
-      background: black;
+    .redes{
+      text-align: start;
+      margin-left: 350px;
+      margin-top: -45px;
     }
-   .redes{
-     text-align: start;
-     margin-left: 300px;
-   }
-    .telefono{ 
-      font-size: 125%;
-      margin-right: 160px;
-      .icontel{
-        margin-top: -3px;
-        width: 16px;
-      height: 16px;
-      
-      }
-    }
+     .telefono{ 
+       
+       font-size: 125%;
+       margin-right: 350px;
   }
+}
+@media only screen and (max-width: 700px) {
+  body{background: white;}
+  .cartaimagenes{
+    margin: 0%;
+    padding: 0;
+    margin-left: -31px;
+    width: 700px;
+    height: 800px;
+  }
+  .icontel{
+    width: 16px;
+    height: 16px;
+   
+       }
+  .googlemap{
+    margin-top: 15%;
+    width: 500px;
+    height: 490px;
+
+  }
+  .menunav{ 
+    margin-left: 5px;
+  }
+
+  
+    .nav-link:hover{
+      background-color: rgba($color: #000000, $alpha: 0.3);
+      color: red;
+    }
+    .pandita{
+  height: 35px;
+    }
+    .redes{
+      text-align: start;
+      margin-left: 350px;
+      margin-top: -45px;
+    }
+     .telefono{ 
+       font-size: 125%;
+       margin-right: 350px;
+  }
+}
     // Responsive celular
     @media only screen and (max-width: 420px) {
+      aside{background: black;}
+      body{background: white;}
       .cartaimagenes{
         margin: 0%;
         padding: 0;
         margin-left: -11px;
-        width: 800px;
+        width: 410px;
         height: 800px;
       }
       .googlemap{
@@ -138,11 +228,12 @@ height: 45px;
     
       }
       .menunav{ 
-        margin-left: 5px;
+        margin: 0%;
+        padding: 0%;
+        font-size: 200%;
+        margin-left: 55px !important;
       }
-      .navbar{
-        font-size: 25px;
-        }
+
       
         .nav-link:hover{
           background-color: rgba($color: #000000, $alpha: 0.3);
@@ -150,17 +241,13 @@ height: 45px;
         }
         .pandita{
       height: 35px;
-        }
-        body{
-          background: black;
-        }
-       
+        }     
         .redes{ 
-       margin-left: 40;
-        margin-top: -45px;}
+       margin-left: 200px;
+        margin-top: -10x;}
         .telefono{ 
           font-size: 125%;
-          margin-right: 650px;
+          margin-right: 150px;
           .icontel{
             margin-top: -3px;
             width: 16px;
@@ -169,6 +256,13 @@ height: 45px;
           }
         }
       }
+       // Responsive PC 320
+  @media only screen and (max-width: 320px) {
+.cartaimagenes{
+  width: 300px;
+}
+  }
+
 // Final del Responsive
 
 .carrusel{ 
@@ -180,9 +274,7 @@ padding: 0%;}
   text-align: center;
 
 }
-aside {
-  color: white;
-}
+
 body {
   margin: 0%;
   padding: 0%;
@@ -239,3 +331,17 @@ aside {
     @extend %redes;
   }
 }
+aside {
+  margin: 0%;
+  padding: 0;
+  background: black;
+}
+.telefono{
+  color: red;
+}
+.icontel{
+  width: 16px;
+  height: 16px;
+  color: red;
+ 
+     }

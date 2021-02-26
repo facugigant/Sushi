@@ -1,20 +1,19 @@
 @media only screen and (max-width: 1920px) {
-  .icontel {
-    width: 16px;
-    height: 16px;
+  .topcel {
+    width: 6fr;
   }
-  aside {
-    background: red;
+  .redes {
+    width: 6fr;
   }
   .googlemap {
     width: 700px;
     height: 550px;
   }
   .menunav {
-    margin-left: 100px;
-  }
-  .navbar {
-    font-size: 35px;
+    margin: 0%;
+    padding: 0%;
+    font-size: 200%;
+    margin-left: 55px !important;
   }
   .nav-link:hover {
     background-color: rgba(0, 0, 0, 0.3);
@@ -28,155 +27,73 @@
   }
 }
 
+@media only screen and (max-width: 1320px) {
+  .menunav {
+    margin: 0%;
+    padding: 0%;
+    font-size: 120%;
+    margin-left: 55px !important;
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+  .menunav {
+    margin: 0%;
+    padding: 0%;
+    font-size: 115%;
+    margin-left: 55px !important;
+  }
+}
+
 @media only screen and (max-width: 1080px) {
-  .icontel {
-    width: 16px;
-    height: 16px;
-  }
-  .googlemap {
-    margin-top: 15%;
-    width: 500px;
-    height: 490px;
+  .redes {
+    margin-left: -200px;
   }
   .menunav {
-    margin-left: 5px;
-  }
-  .navbar {
-    font-size: 25px;
-  }
-  .nav-link:hover {
-    background-color: rgba(0, 0, 0, 0.3);
-    color: red;
-  }
-  .pandita {
-    height: 35px;
-  }
-  body {
-    background: black;
+    margin: 0%;
+    padding: 0%;
+    font-size: 100%;
+    margin-left: 55px !important;
   }
 }
 
-@media only screen and (max-width: 800px) {
-  .icontel {
-    width: 16px;
-    height: 16px;
-  }
+@media only screen and (max-width: 768px) {
   .googlemap {
-    margin-top: 15%;
-    width: 500px;
-    height: 490px;
+    width: 450px;
+    height: 550px;
   }
-  .menunav {
-    margin-left: 5px;
+  .topcel {
+    margin-left: -500px;
   }
-  .navbar {
-    font-size: 25px;
-  }
-  .nav-link:hover {
-    background-color: rgba(0, 0, 0, 0.3);
-    color: red;
-  }
-  .pandita {
-    height: 35px;
-  }
-  body {
-    background: black;
+  .redes {
+    margin-left: -100px;
+    margin-top: -40px;
   }
 }
 
-@media only screen and (max-width: 767px) {
-  .icontel {
-    width: 16px;
-    height: 16px;
-  }
-  .googlemap {
-    margin-top: 15%;
-    width: 500px;
-    height: 490px;
-  }
-  .menunav {
-    margin-left: 5px;
-  }
-  .navbar {
-    font-size: 25px;
-  }
-  .nav-link:hover {
-    background-color: rgba(0, 0, 0, 0.3);
-    color: red;
-  }
-  .pandita {
-    height: 35px;
-  }
-  .redesasid {
-    margin-top: -45px;
-  }
-  body {
-    background: black;
-  }
-  .telefasid {
-    margin-left: -150px;
-  }
-}
-
-@media only screen and (min-width: 420px) {
+@media only screen and (max-width: 480px) {
   .vermenuimg {
-    width: 90%;
+    width: 450px;
   }
-  .googlemap {
-    margin-top: 15%;
-    width: 500px;
-    height: 490px;
+  .topcel {
+    margin-left: -300px;
   }
-  .menunav {
-    margin-left: 5px;
-  }
-  .navbar {
-    font-size: 25px;
-  }
-  .nav-link:hover {
-    background-color: rgba(0, 0, 0, 0.3);
-    color: red;
-  }
-  .pandita {
-    height: 35px;
-  }
-  body {
-    background: black;
+  .redes {
+    margin-left: -10px;
+    margin-top: -40px;
   }
 }
 
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 320px) {
   .vermenuimg {
-    width: 90%;
+    width: 250px;
   }
-  .googlemap {
-    margin-left: -30px;
-    margin-top: 15%;
-    width: 355px;
-    height: 250px;
+  .topcel {
+    margin-left: -240px;
   }
-  .menunav {
-    margin-left: 5px;
-  }
-  .navbar {
-    font-size: 25px;
-  }
-  .nav-link:hover {
-    background-color: rgba(0, 0, 0, 0.3);
-    color: red;
-  }
-  .pandita {
-    height: 35px;
-  }
-  body {
-    background: black;
-  }
-  .telefasid {
-    margin-left: -90px;
-  }
-  .icontel {
-    width: 16px;
-    height: 16px;
+  .redes {
+    margin-left: -10px;
+    margin-top: -40px;
   }
 }
 
@@ -186,64 +103,71 @@
 }
 
 * {
+  margin: 0%;
+  padding: 0%;
   text-align: center;
 }
 
-body {
+* body {
   margin: 0%;
   padding: 0%;
 }
 
-.navbar {
+* .navbar {
   background: white;
 }
 
-.nav-link {
+* .nav-link {
   color: white;
 }
 
-footer {
+* footer {
+  margin-top: 5%;
   background: black;
 }
 
-p {
+* p {
   color: white;
 }
 
-h1 {
+* h1 {
   color: white;
 }
 
-h2 {
+* h2 {
   color: white;
 }
 
-h3 {
+* h3 {
   color: white;
 }
 
-h4 {
+* h4 {
   color: white;
 }
 
-article {
+* article {
   color: white;
 }
 
-aside {
+* aside {
   height: 30px;
 }
 
-aside {
+* aside {
   height: 30px;
 }
 
-aside .redes {
+* aside .redes {
   letter-spacing: 15px;
 }
 
-aside .face:hover, aside .insta:hover, aside .whap:hover {
+* aside .face:hover, * aside .insta:hover, * aside .whap:hover {
   -webkit-transform: scale(2.3);
           transform: scale(2.3);
+}
+
+.telefono {
+  font-size: 125%;
 }
 /*# sourceMappingURL=Style.css.map */
