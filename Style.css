@@ -58,15 +58,25 @@
 }
 
 @media only screen and (max-width: 768px) {
+  .telefono {
+    margin-left: -600px;
+  }
+  .redes {
+    margin-top: -40px;
+    margin-left: -120px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
   .googlemap {
     width: 450px;
     height: 550px;
   }
   .topcel {
-    margin-left: -500px;
+    margin-left: -360px;
   }
   .redes {
-    margin-left: -100px;
+    margin-left: -40px;
     margin-top: -40px;
   }
 }
@@ -76,7 +86,7 @@
     width: 450px;
   }
   .topcel {
-    margin-left: -300px;
+    margin-left: -290px;
   }
   .redes {
     margin-left: -10px;
