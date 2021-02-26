@@ -62,29 +62,37 @@ height: 45px;
 }
 // Responsive PC 768 
 @media only screen and (max-width: 768px) {
-
- .googlemap{
-   width: 450px;
-   height: 550px;
- }
-  .topcel{
-    margin-left: -500px;
-    }
-    .redes{
-    margin-left: -100px;
+  .telefono { margin-left: -600px;}
+  .redes{
     margin-top: -40px;
+    margin-left: -120px;
+  }
+}
+   // Responsive PC 500
+@media only screen and (max-width: 500px) {
+
+  .googlemap{
+    width: 450px;
+    height: 550px;
+  }
+   .topcel{
+     margin-left: -420px;
+     }
+     .redes{
+     margin-left: -75px;
+     margin-top: -40px;
+     }
     }
-   }
   // Responsive PC 480 
 @media only screen and (max-width: 480px) {
   .vermenuimg{
     width: 450px;
   }
   .topcel{
-   margin-left: -350px;
+   margin-left: -300px;
    }
    .redes{
-   margin-left: -50px;
+   margin-left: -10px;
    margin-top: -40px;
    }
   }
@@ -94,7 +102,7 @@ height: 45px;
     width: 250px;
     }
     .topcel{
-     margin-left: -290px;
+     margin-left: -240px;
      }
      .redes{
      margin-left: -10px;
